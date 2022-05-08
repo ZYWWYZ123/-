@@ -446,7 +446,7 @@ if weather_day == weather_night:
 else:
     print('\n'+city+'今天的天气是'+weather_day+'转'+weather_night)
 
-#紫外线指数检测提示-罗曼玮的创意
+#紫外线指数检测提示
 print('今天的紫外线指数等级'+ray_today)
 if ray_today == '最弱':
     print('可涂擦SPF8-12防晒护肤品保护皮肤')
@@ -484,7 +484,7 @@ if min_tempe_today_int > max_tempe_today_int:
 
 if tempe_night_mode == False:
     print('气温是'+str(min_tempe_today_int)+'℃ ~'+str(max_tempe_today_int)+'℃')
-    #检查温差、温度-罗曼玮的创意
+    #检查温差、温度
     if max_tempe_today_int >= 20:
         print('提示：今天气温较高')
     elif min_tempe_today_int <= 5:
